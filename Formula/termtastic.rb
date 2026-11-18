@@ -1,28 +1,28 @@
 class Termtastic < Formula
   desc "Feature-rich Meshtastic console client"
   homepage "https://github.com/acelot/termtastic"
-  version "1.0.0-beta7"
+  version "1.0.0-beta9"
   license "GPL-3.0-only"
 
   on_macos do
     on_arm do
-      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta7/termtastic-aarch64-apple-darwin.tar.gz"
-      sha256 "70a82df2316aa398839c556f2637d85fe9968b1e410454ba7ded4d131095a4e7"
+      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta9/termtastic-aarch64-apple-darwin.tar.gz"
+      sha256 "a333da3779086bbbb7a3ba8b92a3efd12d8a3d025e605ced08243731e4c98f14"
     end
     on_intel do
-      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta7/termtastic-x86_64-apple-darwin.tar.gz"
-      sha256 "0636ccff8553b4a9ae8192f15694b0dc8a4bb8e1899a209e93621f824eada8e7"
+      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta9/termtastic-x86_64-apple-darwin.tar.gz"
+      sha256 "538fc5751e2014664290594746cc79cc1b5880c10ac7a6744409fd8747f939e2"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta7/termtastic-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "c714344162639456bd9edaf96b538d50cd3af62280296a5ba635e7616c87c84e"
+      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta9/termtastic-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "be8574a641ecf51b50b57f27eaeaa45e9e79f6e80a8838112d9a8e51a2730ea4"
     end
     on_intel do
-      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta7/termtastic-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "efce6674acedbab0fb0b509b895d132d72f6041ace75d9b41e41c9ac8ec2b904"
+      url "https://github.com/acelot/termtastic/releases/download/v1.0.0-beta9/termtastic-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "7087db34877148aa8396d80908e61368e04f20b6e528ae80af9e0a4d86265698"
     end
   end
 
